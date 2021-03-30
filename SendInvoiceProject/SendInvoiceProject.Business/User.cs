@@ -13,5 +13,6 @@ namespace SendInvoiceProject.Business
         public string firstName;
         public string lastName;
         public bool active;
+        public Role[] roles;
     }
 }
