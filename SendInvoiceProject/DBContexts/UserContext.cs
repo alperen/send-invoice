@@ -9,5 +9,7 @@ namespace DBContexts
 {
     class UserContext : DBContext
     {
+        public UserContext(): base() { }
+        public DbSet<User>
     }
 }
