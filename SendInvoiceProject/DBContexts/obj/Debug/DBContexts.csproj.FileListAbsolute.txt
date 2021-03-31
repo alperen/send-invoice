@@ -1,0 +1,2 @@
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\DBContexts\obj\Debug\DBContexts.csprojAssemblyReference.cache
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\DBContexts\obj\Debug\DBContexts.csproj.CoreCompileInputs.cache
