@@ -1,8 +1,11 @@
-﻿namespace SendInvoiceProject.Business
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace SendInvoiceProject.Business
 {
     public class Product
     {
-        public string id;
+        [Key]
+        public int id;
         public string displayName;
         public float pricePerQuantity;
         public int taxPercentPerQuantity;
