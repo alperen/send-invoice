@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SendInvoiceProject.Business
 {
-    class InvoiceEntry
+    public class InvoiceEntry
     {
         public string id;
         public Product product;
