@@ -1,6 +1,6 @@
 ﻿namespace SendInvoiceProject.Business
 {
-    enum RoleType
+    public enum RoleType
     {
         Client,
         Vendor

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SendInvoiceProject.Business
 {
-    class User
+    public class User
     {
         public string id;
         public string email;
