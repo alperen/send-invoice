@@ -49,12 +49,21 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data.Entity" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CompanyContext.cs" />
     <Compile Include="InvoiceContext.cs" />
+    <Compile Include="Migrations\202104071918036_iecc.cs" />
+    <Compile Include="Migrations\202104071918036_iecc.designer.cs">
+      <DependentUpon>202104071918036_iecc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104071928222_icc.cs" />
+    <Compile Include="Migrations\202104071928222_icc.designer.cs">
+      <DependentUpon>202104071928222_icc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\UserContextConfiguration.cs" />
     <Compile Include="Migrations\RoleContextConfiguration.cs" />
     <Compile Include="Migrations\ProductContextConfiguration.cs" />
@@ -75,7 +84,14 @@
   <ItemGroup>
     <Compile Include="ProductContext.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202104071918036_iecc.resx">
+      <DependentUpon>202104071918036_iecc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104071928222_icc.resx">
+      <DependentUpon>202104071928222_icc.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

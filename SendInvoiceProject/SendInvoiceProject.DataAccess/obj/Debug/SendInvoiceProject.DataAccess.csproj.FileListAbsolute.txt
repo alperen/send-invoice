@@ -1,6 +1,5 @@
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\bin\Debug\SendInvoiceProject.DataAccess.dll
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\bin\Debug\SendInvoiceProject.DataAccess.pdb
-C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\obj\Debug\SendInvoiceProject.DataAccess.csprojAssemblyReference.cache
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\obj\Debug\SendInvoiceProject.DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\obj\Debug\SendInvoiceProject.DataAccess.dll
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\obj\Debug\SendInvoiceProject.DataAccess.pdb
