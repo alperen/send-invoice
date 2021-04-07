@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="CompanyContext.cs" />
     <Compile Include="InvoiceContext.cs" />
+    <Compile Include="Migrations\UserContextConfiguration.cs" />
     <Compile Include="Migrations\RoleContextConfiguration.cs" />
     <Compile Include="Migrations\ProductContextConfiguration.cs" />
     <Compile Include="Migrations\InvoiceEntryContextConfiguration.cs" />
