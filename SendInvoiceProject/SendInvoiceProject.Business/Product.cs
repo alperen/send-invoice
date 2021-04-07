@@ -5,10 +5,10 @@ namespace SendInvoiceProject.Business
     public class Product
     {
         [Key]
-        public int id;
-        public string displayName;
-        public float pricePerQuantity;
-        public int taxPercentPerQuantity;
-        public bool active;
+        public int id { get; set; }
+        public string displayName { get; set; }
+        public float pricePerQuantity { get; set; }
+        public int taxPercentPerQuantity { get; set; }
+        public bool active { get; set; }
     }
 }

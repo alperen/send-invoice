@@ -10,8 +10,8 @@ namespace SendInvoiceProject.Business
     public class InvoiceEntry
     {
         [Key]
-        public int id;
-        public Product product;
-        public Invoice invoice;
+        public int id { get; set; }
+        public Product product { get; set; }
+        public Invoice invoice { get; set; }
     }
 }

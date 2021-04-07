@@ -10,14 +10,14 @@ namespace SendInvoiceProject.Business
     public class Invoice
     {
         [Key]
-        public int id;
-        public User creator;
-        public Company company;
-        public DateTime createdAt;
-        public DateTime updatedAt;
-        public DateTime deletedAt;
-        public string pdfPath;
-        public string displayName;
-        public InvoiceEntry[] invoiceEntries;
+        public int id { get; set; }
+        public User creator { get; set; }
+        public Company company { get; set; }
+        public DateTime createdAt { get; set; }
+        public DateTime updatedAt { get; set; }
+        public DateTime deletedAt { get; set; }
+        public string pdfPath { get; set; }
+        public string displayName { get; set; }
+        public InvoiceEntry[] invoiceEntries { get; set; }
     }
 }

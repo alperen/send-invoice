@@ -10,11 +10,11 @@ namespace SendInvoiceProject.Business
     public class User
     {
         [Key]
-        public int id;
-        public string email;
-        public string firstName;
-        public string lastName;
-        public bool active;
-        public Role[] roles;
+        public int id { get; set; }
+        public string email { get; set; }
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+        public bool active { get; set; }
+        public Role[] roles { get; set; }
     }
 }

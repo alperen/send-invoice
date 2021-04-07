@@ -10,12 +10,12 @@ namespace SendInvoiceProject.Business
     public class Company
     {
         [Key]
-        public int id;
-        public string displayName;
-        public bool active;
-        public string address;
-        public string taxId;
-        public string taxOfficeId;
-        public string registeredNumber;
+        public int id { get; set; }
+        public string displayName { get; set; }
+        public bool active { get; set; }
+        public string address { get; set; }
+        public string taxId { get; set; }
+        public string taxOfficeId { get; set; }
+        public string registeredNumber { get; set; }
     }
 }

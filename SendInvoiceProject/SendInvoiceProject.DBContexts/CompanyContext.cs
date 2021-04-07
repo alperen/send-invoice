@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 
-namespace DBContexts
+namespace SendInvoiceProject.DBContexts
 {
-    class CompanyContext : DbContext
+    public class CompanyContext : DbContext
     {
         public CompanyContext() : base() { }
         public DbSet<SendInvoiceProject.Business.Company> Companies { get; set; }

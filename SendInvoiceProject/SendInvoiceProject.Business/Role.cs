@@ -10,9 +10,9 @@ namespace SendInvoiceProject.Business
     public class Role
     {
         [Key]
-        public int id;
-        public User user;
-        public Company company;
-        public RoleType roleType;
+        public int id { get; set; }
+        public User user { get; set; }
+        public Company company { get; set; }
+        public RoleType roleType { get; set; }
     }
 }

@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 
-namespace DBContexts {
+namespace SendInvoiceProject.DBContexts
+{
     class InvoiceEntryContext : DbContext
     {
         public InvoiceEntryContext() : base() { }
