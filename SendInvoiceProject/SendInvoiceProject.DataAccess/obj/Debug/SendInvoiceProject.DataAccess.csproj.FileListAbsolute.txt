@@ -3,3 +3,15 @@ C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProje
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\obj\Debug\SendInvoiceProject.DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\obj\Debug\SendInvoiceProject.DataAccess.dll
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\obj\Debug\SendInvoiceProject.DataAccess.pdb
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\bin\Debug\SendInvoiceProject.DataAccess.dll.config
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\bin\Debug\SendInvoiceProject.Business.dll
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\bin\Debug\SendInvoiceProject.Business.pdb
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\bin\Debug\SendInvoiceProject.Business.dll.config
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\obj\Debug\SendInvoiceProject.DataAccess.csprojAssemblyReference.cache
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\obj\Debug\SendInvoiceProject.DataAccess.csproj.CopyComplete
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\obj\Debug\SendInvoiceProject.DataAccess.Migrations.DbContextInitialMigration.resources
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DataAccess\obj\Debug\SendInvoiceProject.DataAccess.csproj.GenerateResource.cache
