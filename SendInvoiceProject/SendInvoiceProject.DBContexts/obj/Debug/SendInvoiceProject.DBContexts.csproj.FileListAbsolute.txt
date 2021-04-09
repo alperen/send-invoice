@@ -13,3 +13,6 @@ C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProje
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\obj\Debug\SendInvoiceProject.DBContexts.csproj.CopyComplete
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\obj\Debug\SendInvoiceProject.DBContexts.dll
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\obj\Debug\SendInvoiceProject.DBContexts.pdb
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\obj\Debug\SendInvoiceProject.DBContexts.Migrations.iecc.resources
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\obj\Debug\SendInvoiceProject.DBContexts.csproj.GenerateResource.cache
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\obj\Debug\SendInvoiceProject.DBContexts.Migrations.icc.resources
