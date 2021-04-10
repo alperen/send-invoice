@@ -115,3 +115,4 @@ C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProje
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\obj\Debug\SendInvoiceProject.Web.csproj.CopyComplete
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\obj\Debug\SendInvoiceProject.Web.dll
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\obj\Debug\SendInvoiceProject.Web.pdb
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\obj\Debug\SendInvoiceProject.Web.csprojAssemblyReference.cache

@@ -87,6 +87,7 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SessionManager\SessionIdentifiers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
