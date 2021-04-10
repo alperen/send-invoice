@@ -5,13 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace SendInvoiceProject.Web
+namespace SendInvoiceProject.Web.Layout
 {
-    public partial class Login : System.Web.UI.Page
+    public partial class HeaderUserControl : System.Web.UI.UserControl
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+
         }
     }
 }

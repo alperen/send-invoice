@@ -8,9 +8,9 @@
 //------------------------------------------------------------------------------
 
 
-namespace SendInvoiceProject.Web
+namespace SendInvoiceProject.Web.Layout
 {
-    public partial class Login
+    public partial class HeaderUserControl
     {
     }
 }
