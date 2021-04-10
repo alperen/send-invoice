@@ -5,6 +5,7 @@ C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProje
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Business\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Business\bin\Debug\EntityFramework.xml
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Business\obj\Debug\SendInvoiceProject.Business.csprojAssemblyReference.cache
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Business\obj\Debug\SendInvoiceProject.Business.csproj.CoreCompileInputs.cache
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Business\obj\Debug\SendInvoiceProject.Business.csproj.CopyComplete
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Business\obj\Debug\SendInvoiceProject.Business.dll

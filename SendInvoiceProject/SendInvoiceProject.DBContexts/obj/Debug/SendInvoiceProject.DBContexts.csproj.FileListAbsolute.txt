@@ -1,5 +1,3 @@
-C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\obj\Debug\SendInvoiceProject.DBContexts.csprojAssemblyReference.cache
-C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\obj\Debug\SendInvoiceProject.DBContexts.csproj.CoreCompileInputs.cache
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\bin\Debug\SendInvoiceProject.DBContexts.dll.config
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\bin\Debug\SendInvoiceProject.DBContexts.dll
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\bin\Debug\SendInvoiceProject.DBContexts.pdb
@@ -10,6 +8,8 @@ C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProje
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\bin\Debug\SendInvoiceProject.Business.dll.config
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\bin\Debug\EntityFramework.xml
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\obj\Debug\SendInvoiceProject.DBContexts.csprojAssemblyReference.cache
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\obj\Debug\SendInvoiceProject.DBContexts.csproj.CoreCompileInputs.cache
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\obj\Debug\SendInvoiceProject.DBContexts.csproj.CopyComplete
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\obj\Debug\SendInvoiceProject.DBContexts.dll
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.DBContexts\obj\Debug\SendInvoiceProject.DBContexts.pdb
