@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Company.cs" />
+    <Compile Include="Cyrpto\Md5Hasher.cs" />
     <Compile Include="Invoice.cs" />
     <Compile Include="InvoiceEntry.cs" />
     <Compile Include="Product.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="Role.cs" />
     <Compile Include="RoleType.cs" />
     <Compile Include="Rules\BusinessRules.cs" />
+    <Compile Include="Rules\ValidationRules.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>

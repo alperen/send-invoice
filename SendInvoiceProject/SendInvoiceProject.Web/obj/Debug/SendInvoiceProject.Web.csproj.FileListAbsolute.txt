@@ -57,6 +57,8 @@ C:\Users\elift\Desktop\alperen\send-invoice\SendInvoiceProject\SendInvoiceProjec
 C:\Users\elift\Desktop\alperen\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\obj\Debug\SendInvoiceProject.Web.csproj.CopyComplete
 C:\Users\elift\Desktop\alperen\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\obj\Debug\SendInvoiceProject.Web.dll
 C:\Users\elift\Desktop\alperen\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\obj\Debug\SendInvoiceProject.Web.pdb
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\obj\Debug\SendInvoiceProject.Web.csprojAssemblyReference.cache
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\obj\Debug\SendInvoiceProject.Web.csproj.CoreCompileInputs.cache
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\bin\SendInvoiceProject.Web.dll.config
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\bin\SendInvoiceProject.Web.dll
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\bin\SendInvoiceProject.Web.pdb
@@ -114,8 +116,13 @@ C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProje
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\bin\SendInvoiceProject.Business.pdb
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\bin\SendInvoiceProject.Business.dll.config
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\obj\Debug\SendInvoiceProject.Web.csprojAssemblyReference.cache
-C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\obj\Debug\SendInvoiceProject.Web.csproj.CoreCompileInputs.cache
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\obj\Debug\SendInvoiceProject.Web.csproj.CopyComplete
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\obj\Debug\SendInvoiceProject.Web.dll
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\obj\Debug\SendInvoiceProject.Web.pdb
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\bin\EntityFramework.dll
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\bin\SendInvoiceProject.DataAccess.dll
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\bin\SendInvoiceProject.DataAccess.pdb
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\bin\SendInvoiceProject.DataAccess.dll.config
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\bin\EntityFramework.xml
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Web\bin\EntityFramework.SqlServer.xml
