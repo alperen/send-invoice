@@ -2,5 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
-    login will be implemented
+    <asp:Button ID="LoginButton" runat="server" Text="Giris Yap" OnClick="LoginButton_Click" />
+    <asp:TextBox ID="EmailInput" runat="server"></asp:TextBox>
+    <asp:TextBox ID="PasswordInput" runat="server"></asp:TextBox>
 </asp:Content>
