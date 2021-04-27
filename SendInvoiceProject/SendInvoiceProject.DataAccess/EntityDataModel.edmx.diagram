@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5ff0160e6c6b406484e56b4924c735c6" Name="Diagram1">
+        <EntityTypeShape EntityType="SendInvoiceProjectDatabaseModel.Companies" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SendInvoiceProjectDatabaseModel.InvoiceEntities" Width="1.5" PointX="5.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="SendInvoiceProjectDatabaseModel.Invoices" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SendInvoiceProjectDatabaseModel.Products" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="SendInvoiceProjectDatabaseModel.Roles" Width="1.5" PointX="6" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SendInvoiceProjectDatabaseModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SendInvoiceProjectDatabaseModel.Users" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="SendInvoiceProjectDatabaseModel.FK_Invoices_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="SendInvoiceProjectDatabaseModel.FK_Roles_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="SendInvoiceProjectDatabaseModel.FK_InvoiceEntities_Invoices" ManuallyRouted="false" />
+        <AssociationConnector Association="SendInvoiceProjectDatabaseModel.FK_InvoiceEntities_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="SendInvoiceProjectDatabaseModel.FK_Invoices_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SendInvoiceProjectDatabaseModel.FK_Roles_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
