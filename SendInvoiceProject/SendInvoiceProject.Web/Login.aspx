@@ -16,4 +16,22 @@
     <div class="mt-2">
         <asp:Button ID="LoginButton" runat="server" Text="Giris Yap" OnClick="LoginButton_Click"  CssClass="btn btn-success" />
     </div>
+
+    <div class="mt-2">
+        <asp:UpdatePanel ID="updatePanel" runat="server">
+            <ContentTemplate>
+                <% if (!String.IsNullOrEmpty(alertMessage.Text)) { %>
+                    <div class="alert alert-danger">
+                        <asp:Label ID="alertMessage" runat="server"></asp:Label>
+                    </div>
+                <% } %>
+
+                <asp:ScriptManager ID="ScriptManager1" runat="server">
+                    </asp:ScriptManager>
+            </ContentTemplate>
+            <Triggers>
+                <asp:AsyncPostBackTrigger ControlID="LoginButton" EventName="Click" />
+            </Triggers>
+        </asp:UpdatePanel>
+    </div>
 </asp:Content>

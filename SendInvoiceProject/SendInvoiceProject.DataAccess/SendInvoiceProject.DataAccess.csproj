@@ -114,12 +114,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SendInvoiceProject.Business\SendInvoiceProject.Business.csproj">
-      <Project>{5117733a-6e82-4c32-893d-4f43f4d4a52a}</Project>
-      <Name>SendInvoiceProject.Business</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Migrations\202104091831334_DbContextInitialMigration.resx">
       <DependentUpon>202104091831334_DbContextInitialMigration.cs</DependentUpon>
     </EmbeddedResource>

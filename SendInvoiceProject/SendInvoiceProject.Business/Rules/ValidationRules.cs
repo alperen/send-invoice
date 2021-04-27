@@ -49,5 +49,27 @@ namespace SendInvoiceProject.Business.Rules
 
             return true;
         }
+
+        public static bool isLoginFormValid(string email, string password)
+        {
+            var trimmedEmail = email.Trim();
+            var trimmedPassword = password.Trim();
+            var nullOrEmptyChecks = new string[] { trimmedEmail, trimmedPassword };
+
+            foreach (var check in nullOrEmptyChecks)
+            {
+                if (String.IsNullOrEmpty(check))
+                {
+                    return false;
+                }
+            }
+
+            if (!isValidEmail(email))
+            {
+                return false;
+            }
+
+            return true;
+        }
     }
 }

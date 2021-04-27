@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Company.cs" />
     <Compile Include="Cyrpto\Md5Hasher.cs" />
+    <Compile Include="Helpers\User\UserHelpers.cs" />
     <Compile Include="Invoice.cs" />
     <Compile Include="InvoiceEntry.cs" />
     <Compile Include="Product.cs" />
@@ -66,6 +67,12 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SendInvoiceProject.DataAccess\SendInvoiceProject.DataAccess.csproj">
+      <Project>{5b6968bf-9944-4ed7-8c35-dd8829c6be28}</Project>
+      <Name>SendInvoiceProject.DataAccess</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -9,3 +9,4 @@ C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProje
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Business\obj\Debug\SendInvoiceProject.Business.csproj.CopyComplete
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Business\obj\Debug\SendInvoiceProject.Business.dll
 C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Business\obj\Debug\SendInvoiceProject.Business.pdb
+C:\Users\elift\Documents\GitHub\send-invoice\SendInvoiceProject\SendInvoiceProject.Business\obj\Debug\SendInvoiceProject.Business.csprojAssemblyReference.cache
