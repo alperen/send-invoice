@@ -57,7 +57,6 @@
     <Compile Include="Companies.cs">
       <DependentUpon>EntityDataModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="DatabaseContext.cs" />
     <Compile Include="EntityDataModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -79,15 +78,6 @@
     <Compile Include="Invoices.cs">
       <DependentUpon>EntityDataModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202104091831334_DbContextInitialMigration.cs" />
-    <Compile Include="Migrations\202104091831334_DbContextInitialMigration.designer.cs">
-      <DependentUpon>202104091831334_DbContextInitialMigration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202104161826397_add-user-password.cs" />
-    <Compile Include="Migrations\202104161826397_add-user-password.designer.cs">
-      <DependentUpon>202104161826397_add-user-password.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Products.cs">
       <DependentUpon>EntityDataModel.tt</DependentUpon>
     </Compile>
@@ -112,14 +102,6 @@
       <DependentUpon>EntityDataModel.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\202104091831334_DbContextInitialMigration.resx">
-      <DependentUpon>202104091831334_DbContextInitialMigration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202104161826397_add-user-password.resx">
-      <DependentUpon>202104161826397_add-user-password.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="EntityDataModel.Context.tt">

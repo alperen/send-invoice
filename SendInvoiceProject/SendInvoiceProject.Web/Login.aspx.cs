@@ -17,7 +17,7 @@ namespace SendInvoiceProject.Web
         protected void LoginButton_Click(object sender, EventArgs e)
         {
             var email = EmailInput.Text;
-            var password = PasswordInput.Text;,
+            var password = PasswordInput.Text;
             var isValid = Business.Rules.ValidationRules.isLoginFormValid(email, password);
             var hashedPassword = Business.Cyrpto.Md5Hasher.toMd5(password);
             var databaseContext = new SendInvoiceProject.DataAccess.SendInvoiceProjectDatabaseEntities();
