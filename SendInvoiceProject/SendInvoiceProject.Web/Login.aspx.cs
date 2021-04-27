@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using SendInvoiceProject.Business.Helpers.User;
 
 namespace SendInvoiceProject.Web
 {
@@ -19,10 +20,16 @@ namespace SendInvoiceProject.Web
             var email = EmailInput.Text;
             var password = PasswordInput.Text;
             var isValid = Business.Rules.ValidationRules.isLoginFormValid(email, password);
+
+            if (!isValid)
+            {
+                alertMessage.Text = "The form is invalid";
+                return;
+            }
+
             var hashedPassword = Business.Cyrpto.Md5Hasher.toMd5(password);
-            var databaseContext = new SendInvoiceProject.DataAccess.SendInvoiceProjectDatabaseEntities();
-            var givenUser = databaseContext.Users.Where(user => user.email == email && user.password == hashedPassword).FirstOrDefault();
-        
+            var givenUser = UserHelpers.getUserByCredentials(email, hashedPassword);
+
             if (givenUser == null)
             {
                 alertMessage.Text = "User not found";
