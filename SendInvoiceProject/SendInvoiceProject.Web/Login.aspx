@@ -2,7 +2,18 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
-    <asp:Button ID="LoginButton" runat="server" Text="Giris Yap" OnClick="LoginButton_Click" />
-    <asp:TextBox ID="EmailInput" runat="server"></asp:TextBox>
-    <asp:TextBox ID="PasswordInput" runat="server"></asp:TextBox>
+
+    <div class="form-group">
+        <label for="Content_EmailInput">E-posta adresiniz</label>
+        <asp:TextBox ID="EmailInput" runat="server" CssClass="form-control"></asp:TextBox>
+    </div>
+
+    <div class="form-group mt-2">
+        <label for="Content_PasswordInput">Şifreniz</label>
+        <asp:TextBox ID="PasswordInput" runat="server" TextMode="Password" CssClass="form-control"></asp:TextBox>
+    </div>
+
+    <div class="mt-2">
+        <asp:Button ID="LoginButton" runat="server" Text="Giris Yap" OnClick="LoginButton_Click"  CssClass="btn btn-success" />
+    </div>
 </asp:Content>
