@@ -35,6 +35,9 @@ namespace SendInvoiceProject.Web
                 alertMessage.Text = "User not found";
                 return;
             }
+
+            SessionManager.SessionManager.setUser(givenUser);
+            Response.Redirect("/dashboard");
         }
     }
 }
