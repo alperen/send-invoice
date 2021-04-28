@@ -11,7 +11,13 @@ namespace SendInvoiceProject.Web.Layout
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            var sessionManager = new SessionManager.SessionManager();
+            var user = sessionManager.getUser();
+
+            if (user == null)
+            {
+                Response.Redirect("/login");
+            }
         }
     }
 }
