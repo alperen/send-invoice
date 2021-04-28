@@ -8,14 +8,14 @@ namespace SendInvoiceProject.Web.SessionManager
 {
     public static class SessionManager
     {
-        public static DataAccess.User getUser()
+        public static DataAccess.Users getUser()
         {
-            var userSession = (DataAccess.User) HttpContext.Current.Session[SessionIdentifiers.User];
+            var userSession = (DataAccess.Users) HttpContext.Current.Session[SessionIdentifiers.User];
 
             return userSession;
         }
 
-        public static void setUser(DataAccess user)
+        public static void setUser(DataAccess.Users user)
         {
             HttpContext.Current.Session[SessionIdentifiers.User] = user;
         }
