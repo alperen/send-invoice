@@ -30,6 +30,11 @@ namespace SendInvoiceProject.Web
                 "~/Signup.aspx"
             );
 
+            routes.MapPageRoute(
+                "DashboardRoute",
+                "dashboard",
+                "~/Dashboard.aspx"
+            );
         }
 
         protected void Session_Start(object sender, EventArgs e)

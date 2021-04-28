@@ -74,6 +74,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dashboard.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Layout\HeaderUserControl.ascx" />
@@ -83,6 +84,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -106,6 +114,13 @@
     </Compile>
     <Compile Include="Layout\Layout.Master.designer.cs">
       <DependentUpon>Layout.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\LayoutWithAuthentication.master.cs">
+      <DependentUpon>LayoutWithAuthentication.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\LayoutWithAuthentication.master.designer.cs">
+      <DependentUpon>LayoutWithAuthentication.master</DependentUpon>
     </Compile>
     <Compile Include="Layout\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -134,6 +149,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Layout\Layout.Master" />
+    <Content Include="Layout\LayoutWithAuthentication.master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
