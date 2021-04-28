@@ -11,6 +11,8 @@
     <form id="form1" runat="server">
         <div class="container">
             <uc:HeaderUserControl runat="server" />
+            <asp:ContentPlaceHolder ID="headerContentPlaceholder" runat="server">
+            </asp:ContentPlaceHolder>
             <div class="row mt-3">
                 <div class="col col-sm-3">
                     <ul class="list-group">

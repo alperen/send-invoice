@@ -18,5 +18,11 @@ namespace SendInvoiceProject.Web.Layout
                 Response.Redirect("/login");
             }
         }
+
+        protected void logoutButton_Click(object sender, EventArgs e)
+        {
+            SessionManager.SessionManager.resetUserSession();
+            Response.Redirect("/login");
+        }
     }
 }

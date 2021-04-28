@@ -1,5 +1,8 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/Layout/Layout.Master" AutoEventWireup="true" CodeBehind="LayoutWithAuthentication.master.cs" Inherits="SendInvoiceProject.Web.Layout.LayoutWithAuthentication" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="headerContentPlaceholder" runat="server">
+    <div class="mt-3 d-flex flex-row-reverse">
+        <asp:Button ID="logoutButton" runat="server" CssClass="btn btn-danger" Text="Çıkış Yap" OnClick="logoutButton_Click" />
+    </div>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
