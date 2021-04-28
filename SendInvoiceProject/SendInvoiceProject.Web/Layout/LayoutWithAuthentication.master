@@ -1,0 +1,5 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Layout/Layout.Master" AutoEventWireup="true" CodeBehind="NestedMasterPage1.master.cs" Inherits="SendInvoiceProject.Web.Layout.NestedMasterPage1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="server">
+</asp:Content>
