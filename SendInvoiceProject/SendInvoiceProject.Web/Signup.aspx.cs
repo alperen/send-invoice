@@ -27,8 +27,9 @@ namespace SendInvoiceProject.Web
             var hashedPassword = Business.Cyrpto.Md5Hasher.toMd5(password.Text);
             var user = new SendInvoiceProject.DataAccess.Users();
             var databaseContext = new SendInvoiceProject.DataAccess.SendInvoiceProjectDatabaseEntities();
+            var randomGenerator = new Random();
 
-          
+            user.id = randomGenerator.Next(100000);
             user.email = email.Text;
             user.password = hashedPassword;
             user.firstName = firstName.Text;
