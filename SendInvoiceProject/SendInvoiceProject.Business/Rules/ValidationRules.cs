@@ -71,5 +71,25 @@ namespace SendInvoiceProject.Business.Rules
 
             return true;
         }
+
+        public static bool isCreateCompanyFormValid(string name, string address, string taxId, string taxOffice, string registeredNumbers)
+        {
+            var trimmedName = name.Trim();
+            var trimmedAddress = address.Trim();
+            var trimmedTaxId = taxId.Trim();
+            var trimmedTaxOffice = taxOffice.Trim();
+            var trimmedRegisteredNumber = registeredNumbers.Trim();
+            var nullOrEmptyChecks = new string[] { trimmedName, trimmedAddress, trimmedTaxId, trimmedTaxOffice, trimmedRegisteredNumber };
+
+            foreach (var check in nullOrEmptyChecks)
+            {
+                if (String.IsNullOrEmpty(check))
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
     }
 }

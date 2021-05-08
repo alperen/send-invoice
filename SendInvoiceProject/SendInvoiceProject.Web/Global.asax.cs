@@ -13,7 +13,7 @@ namespace SendInvoiceProject.Web
 
         protected void Application_Start(object sender, EventArgs e)
         {
-            RegisterRoutes(RouteTable.Routes);  
+            RegisterRoutes(RouteTable.Routes);
         }
 
         void RegisterRoutes(RouteCollection routes)
@@ -35,6 +35,19 @@ namespace SendInvoiceProject.Web
                 "dashboard",
                 "~/Dashboard.aspx"
             );
+
+            routes.MapPageRoute(
+                "CompaniesRoute",
+                "companies",
+                "~/Companies.aspx"
+            );
+
+            routes.MapPageRoute(
+                "CreateCompany",
+                "companies/create-company",
+                "~/CreateCompany.aspx"
+            );
+
         }
 
         protected void Session_Start(object sender, EventArgs e)

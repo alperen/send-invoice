@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Company.cs" />
     <Compile Include="Cyrpto\Md5Hasher.cs" />
+    <Compile Include="Helpers\Company\CompanyHelpers.cs" />
     <Compile Include="Helpers\User\UserHelpers.cs" />
     <Compile Include="Invoice.cs" />
     <Compile Include="InvoiceEntry.cs" />
